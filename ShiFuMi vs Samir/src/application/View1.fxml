@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="464.0" prefWidth="487.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="application.Controller">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="493.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../view1.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="pseudo" layoutX="153.0" layoutY="303.0" onAction="#pseudo" prefHeight="51.0" prefWidth="187.0" />
+   </children>
+</AnchorPane>
